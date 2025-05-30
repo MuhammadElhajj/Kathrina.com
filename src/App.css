@@ -1,38 +1,153 @@
+:root {
+  /* --primary-color : #12f7d6 ; */
+  --primary-color : rgba(255, 0, 251, 0.519) ;
+  --secondary-color : #98faec;
+  --bg-color : #292f36 ;
+  --container-color : #1a1e23;
+  --text-color : #ffffff ;
+  --btn-color: #12f7d6;
+ 
+}
+
 .App {
-  text-align: center;
+  position: relative;
+  background-color: var(--backgrond-color);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+  scroll-behavior: smooth;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+body {
+  background-color: var(--container-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mode-switcher {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.mode-buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.mode-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mode-btn:hover {
+  transform: scale(1.05);
+}
+
+.preview-box {
+  padding: 20px;
+  border: 1px solid var(--text-color);
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.sample-btn {
+  background-color: var(--btn-color);
+  color: var(--text-color);
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+ 
+
+/* !......................................! */
+
+
+@media screen and (min-width : 1280px) and (max-width : 1536px) {
+ 
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+
+
+}
+
+@media screen and (min-width : 990px) and (max-width : 1023px) {
+ 
+}
+
+@media screen and (min-width : 769px) and (max-width : 989px) {
+ 
+ 
+}
+
+@media screen and (min-width : 640px) and (max-width : 768px) {
+
+ 
+
+}
+
+@media screen and (min-width : 568px) and (max-width :639px) {
+
+
+
+}
+
+@media screen and (min-width : 480px) and (max-width :567px) {
+  
+ 
+}
+
+@media screen and (min-width : 320px) and (max-width :479px) {
+
+  
+}
+
+@media screen and (min-width : 240px) and (max-width :319px) {
+  
+  
+}
+
+
+
+/* !................ */
+
+
+@media screen and (min-width : 0px) and (max-width : 989px) {
+ 
+ 
+}
+
+
+@media screen and (min-width : 0) and (max-width : 768px) {
+
+
+ 
+
+}
+
+@media screen and (min-width : 0) and (max-width :639px) {
+
+
+
 }
