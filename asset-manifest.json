@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Kathrina.com/static/css/main.ce121606.css",
+    "main.js": "/Kathrina.com/static/js/main.d1ec22b1.js",
+    "static/js/128.f3ec25f9.chunk.js": "/Kathrina.com/static/js/128.f3ec25f9.chunk.js",
+    "static/media/Muhammad.jpg": "/Kathrina.com/static/media/Muhammad.de7274cabeb2c2fbe4a4.jpg",
+    "index.html": "/Kathrina.com/index.html",
+    "main.ce121606.css.map": "/Kathrina.com/static/css/main.ce121606.css.map",
+    "main.d1ec22b1.js.map": "/Kathrina.com/static/js/main.d1ec22b1.js.map",
+    "128.f3ec25f9.chunk.js.map": "/Kathrina.com/static/js/128.f3ec25f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce121606.css",
+    "static/js/main.d1ec22b1.js"
+  ]
+}
