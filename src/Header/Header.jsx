@@ -6,7 +6,7 @@ import HeaderLinks from "./HeaderLinks";
 import { FaBars } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import LogoPhoto from '../images/Muhammad.jpg'
-import ColorModeSwitcher from "../components/ColorModeSwitcher";
+import ThemeToggle from "../components/ThemeToggle/ThemeToggle";
 
 function Header({openSide , openearch}) {
 
@@ -34,7 +34,7 @@ function Header({openSide , openearch}) {
             : null}
           
         </div>
-        {/* <ColorModeSwitcher /> */}
+        <ThemeToggle />
         {/* <div className="Header__Search">
           <input
             className="Header__Search__Input"

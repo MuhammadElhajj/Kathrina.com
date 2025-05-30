@@ -9,6 +9,7 @@ import SideBar from "./Sidebar/Sidebar";
 import SearchPhone from "./SearchPhone/SearchPhone";
 import AccordianSkills from "./SkillsAccordian/AccordianSkills";
 import Footer from "./Footer/Footer";
+import ScrollToTopButton from "./components/ScrollToTopButton ";
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
   }
   return (
     <div className="App">
+      <ScrollToTopButton/>
       <Header 
       openSide = {openSidebar} 
       openearch = {openSearchPhone} 
